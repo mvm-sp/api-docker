@@ -19,8 +19,7 @@ public class ClienteController {
     }
 
     @PostMapping
-    public Cliente criar(
-            @RequestBody @Valid ClienteDTO dto) {
+    public Cliente criar(@RequestBody @Valid ClienteDTO dto) {
 
         return service.salvar(dto);
     }

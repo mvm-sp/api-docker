@@ -9,11 +9,13 @@ import lombok.Setter;
 @Setter
 public class ClienteDTO {
 
+    public ClienteDTO() {
+    }
+
     @NotBlank
     private String nome;
 
     @Email
     private String email;
 
-    // getters e setters
 }
