@@ -227,8 +227,8 @@ Request:
 
 ```json
 {
-  "nome": "João Silva",
-  "email": "joao@email.com"
+  "nome": "Maria Silva",
+  "email": "maria@email.com"
 }
 ```
 
