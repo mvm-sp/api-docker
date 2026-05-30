@@ -82,7 +82,7 @@ Cliente HTTP
 
 ### Responsabilidades das Camadas
 
-| Cama[ClienteRepositoryTest.java](src/test/java/com/mvm/studies/api_docker/repository/ClienteRepositoryTest.java)da     | Função                                                                        |
+| Camada     | Função                                                                        |
 |------------|-------------------------------------------------------------------------------|
 | Controller | Responsável por receber as requisições HTTP e retornar as respostas da API.   |
 | Service    | Responsável pelas regras de negócio da aplicação.                             |
