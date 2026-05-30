@@ -9,5 +9,4 @@ public class ApiDockerApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(ApiDockerApplication.class, args);
 	}
-
 }
