@@ -1,0 +1,26 @@
+*Esta API é apenas um exemplo de construção utilizando JAVA + Springboot/Maven + PostgreSQL/Docker
+---------------------------
+
+#Arquitetura:
++------------------------+
+| Spring Boot API        |
+| Java 17 + Maven        |
+| localhost:8080         |
++-----------+------------+
+            |
+            | JDBC
+            |
++-----------v------------+
+| PostgreSQL Docker      |
+| localhost:5432         |
++------------------------+
+
+#Estrutura:
+src/main/java
+└── com/mvm/studies/api_docker
+    ├── controller
+    ├── service
+    ├── repository
+    ├── model
+    └── ApiApplication.java
+
