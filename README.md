@@ -1,7 +1,3 @@
-
-
-
-
 # API REST MVC - Java 17 + Spring Boot + PostgreSQL
 
 ## Descrição do Projeto
@@ -86,13 +82,13 @@ Cliente HTTP
 
 ### Responsabilidades das Camadas
 
-| Camada     | Função                                                                       |
-| ---------- | ---------------------------------------------------------------------------- |
-| Controller | Responsável por receber as requisições HTTP e retornar as respostas da API.  |
-| Service    | Responsável pelas regras de negócio da aplicação.                            |
-| Repository | Responsável pela comunicação com o banco de dados através do Spring Data JPA.|
-| Model      | Representa as entidades persistidas no banco de dados.                       |
-| DTO        | Responsável pela transferência de dados entre cliente e servidor.            |
+| Cama[ClienteRepositoryTest.java](src/test/java/com/mvm/studies/api_docker/repository/ClienteRepositoryTest.java)da     | Função                                                                        |
+|------------|-------------------------------------------------------------------------------|
+| Controller | Responsável por receber as requisições HTTP e retornar as respostas da API.   |
+| Service    | Responsável pelas regras de negócio da aplicação.                             |
+| Repository | Responsável pela comunicação com o banco de dados através do Spring Data JPA. |
+| Model      | Representa as entidades persistidas no banco de dados.                        |
+| DTO        | Responsável pela transferência de dados entre cliente e servidor.             |
 
 
 ---
